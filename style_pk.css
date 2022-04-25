@@ -1,0 +1,105 @@
+/* Importando Fonte do Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+body {
+  font-family: 'Montserrat';
+}
+
+h3{
+  padding-bottom: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding-top: 15px;
+  height: 25px; /*Specify Height*/
+  width:  200px; /*Specify Width*/
+  border-bottom: 1px solid grey;
+}
+
+.principal {
+  width: 600px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.principal:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.squirtle {
+  width: 600px;
+  height: 500px;
+  background: url("sqr_imgs/fundo.jpg") no-repeat;
+  border-radius: 5px 5px 0 0;
+}
+
+/*Separação de ROWS*/
+
+.coluna {
+  float: left;
+  width: 50%;
+}
+
+
+.atributos:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.atributos {
+  padding: 25px 25px 25px 25px;
+}
+
+
+.atributos2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.atributos2 {
+  padding: 0px 40px 25px 40px;
+}
+
+.fto{
+  position: relative;
+  right: 40px;
+  bottom: 5px;
+}
+
+#fotin{
+  width: 690px;
+}
+
+#numero {
+  padding-top: 7px;
+  float: right;
+  font-weight: 800;
+}
+
+#tipo {
+  border-radius: 5px;
+  padding: 0px 10px 0px 10px;
+  display: inline-block;
+  background-color: #E7F6F9;
+  opacity: 0.5;
+}
+
+#especial {
+  border-top: 2px solid black;
+}
+
+
+
